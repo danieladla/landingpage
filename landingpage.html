@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+	<title>Lucky Jewels</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Your own stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+        <header id="header"> 
+            <div class="logo">
+                <img id="header-img" src="logo_transparent.png" alt="logo" width="150" height="150">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#about">About us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#how-it-works">How it works</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container"></div>
+        <section>
+            <h2>Quality, hand-made jewerly</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter you email" required>
+                <input id="submit" type="submit" value="Get started" class="btn">
+            </form>
+        </section>
+        <div class="container">
+            <section id="about">
+                <h3>About us.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> 
+                    Totam dolor nostrum facilis eum culpa quaerat blanditiis iure <br>
+                    deserunt labore accusamus, repudiandae nihil explicabo non obcaecati, <br>
+                    autem pariatur magni illo. Amet.</p>
+            </section>
+            <section id="how-it-works">
+                <h3>How it works</h3>
+                <p>Click the video below to see how it works</p>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LwkA5KvgCzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <h3>Pricing</h3>
+                <p>Contact us for more information about the price of this unique jewerly.<br>
+                Email us to: email@email.com
+                </p>
+            </section>
+        </div>
+    </body>
